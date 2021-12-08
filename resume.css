@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background: rgb(192, 194, 192);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+.container{
+    margin: 20px;
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: rgba(18, 246, 197, 0.794);
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 34px 54px ;
+}
+.container .left{
+    position: relative;
+    background:rgb(30, 42, 63);
+    padding: 40px;
+
+}
+
+.profile{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 15px;
+    border-bottom: 2px solid rgb(77, 55, 55);
+  
+}
+.profile .img{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 60%;
+    overflow: hidden;
+    
+}
+.profile .img img{
+    position: absolute;
+   top: 0;
+   left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+.profile h2{
+    color: rgb(255, 253, 253);
+    margin-top: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 650;
+    line-height: 1.2em;
+}
+.contact{
+    padding-top: 10px;
+}
+.title{
+    color: rgb(217, 51, 57);
+    font-size: large;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.contact ul{
+    position: relative;
+}
+.contact ul li{
+    position: relative;
+    margin: 4px 0;
+    cursor: pointer;
+}
+
+.edu h5{
+  color: rgb(79, 224, 224);
+  font-weight: 550;
+}
+.edu h4{
+    color: blanchedalmond;
+    letter-spacing: 1px;
+
+}
+.edu h6{
+    color: rgb(226, 209, 116);
+    letter-spacing: 1px;
+
+}
+.ctext{
+    color: antiquewhite;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    font-size: medium;
+
+}
+
+
+
+.container .right{
+    position: relative;
+  
+    background:rgb(232, 234, 238);
+    padding: 40px;
+
+}
+.about{
+    margin-bottom: 40px;
+
+}
+.about p{
+   
+    font-size: larger;
+    line-height: 28px;
+    
+   
+}
+
+.about li{
+    font-size: larger;
+    line-height: 15px;
+    padding: 10px;
+}
+.title2{
+    font-size: 30px;
+    color: rgb(34, 39, 34);
+    font-weight: 2000;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+}
+.abskill .box{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    justify-content: center;
+    align-items: center;
+
+}
+.abskill .box h4{
+    text-transform: uppercase;
+    color: rgb(26, 48, 51);
+    font-weight: 600;
+    line-height: 30px;
+    padding: 8px;
+    font-size: large;
+}
+.abskill .box .percent{
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background: rgba(136, 134, 134, 0.603);
+}
+.abskill .box .percent div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: cyan;
+    
+}
+.hobby{
+    line-height: 30px;
+    font-size: 20px;
+    padding: 5px;
+}
+
+
